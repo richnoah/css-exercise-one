@@ -1,0 +1,49 @@
+body {
+  font-size: 14px;
+}
+
+/*This is the top most section fo the page.
+Both the margin and position have been commented out so that
+it would not override the filst element and that text would not be cutoff. */
+nav {
+  background-color: yellow;
+  height: 100px;
+  /*margin-top: -10px;*/
+  /*position: fixed;*/
+  width: 100%;
+}
+
+/*Thi is the container for the divs */
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+/*Style for header used in nav section */
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+/*Style for header used in divs */
+h3 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/*Style used in divs */
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+/*Style used in last three divs to change background color */
+.element_different {
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0px;
+  width: 100%;
+}
